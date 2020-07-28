@@ -2,7 +2,7 @@
 
 ## Running the containers
 
-Use the following commands from the **jenkins-nexus-sonar** folder to start up Jenkins, Sonar and Nexus as docker containers
+Use the following commands from the **jenkins-nexus-sonar** directory to start up Jenkins, Sonar and Nexus as docker containers
 
 ```bash
 docker-compose up -d
