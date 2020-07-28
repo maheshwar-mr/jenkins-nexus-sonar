@@ -1,20 +1,12 @@
-# Jenkins and Nexus using docker-compose
-
-## Volumes
-
-Before starting up the containers, the volumes for respective tools need to be created
-
-```bash
-docker volume create --name jenkins-volume
-docker volume create --name nexus-data
-```
+# Jenkins, Nexus and Sonar as docker containers
 
 ## Running the containers
 
-To start both Jenkins and Nexus containers, use the following command
+Use the following commands from the **jenkins-nexus-sonar** folder to start up Jenkins, Sonar and Nexus as docker containers
 
 ```bash
-docker-compose up --build -d
+docker-compose up -d
+docker-compose up -f sonar/docker-compose.yml -d
 ```
 
-Jenkins and Nexus can be accessed on the host ports 8080 and 8081 respectively
+Jenkins, Nexus and Sonar can now be accessed on the host ports 8080, 8081 and 9000 respectively
