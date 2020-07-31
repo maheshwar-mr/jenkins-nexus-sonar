@@ -33,7 +33,5 @@ Use **admin** as the username and the **result of the above command** as the pas
 
 ## Sonarqube Initial Credentials
 
-```bash
-username: admin
-password: bitnami
-```
+username: **admin**
+password: **bitnami**
