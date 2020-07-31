@@ -1,4 +1,4 @@
-# Jenkins, Nexus and Sonar as docker containers
+# Jenkins, Nexus and Sonarqube as docker containers
 
 ## Running the containers
 
