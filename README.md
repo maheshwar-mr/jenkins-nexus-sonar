@@ -6,7 +6,7 @@ Use the following commands from the **jenkins-nexus-sonar** directory to start u
 
 ```bash
 docker-compose up -d
-docker-compose up -f sonar/docker-compose.yml -d
+docker-compose -f sonar/docker-compose.yml up -d
 ```
 
 Jenkins, Nexus and Sonarqube can now be accessed on the host IP at ports 8080, 8081 and 9000 respectively
