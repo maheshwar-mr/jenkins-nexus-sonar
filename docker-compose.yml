@@ -3,7 +3,7 @@ services:
   jenkins:
     image: jenkins/jenkins:lts
     volumes:
-      - jenkins_data:/var/jenkins_home
+      - jenkins-data:/var/jenkins_home
     ports:
       - "8080:8080"
   nexus:
@@ -14,7 +14,7 @@ services:
       - "8081:8081"
 
 volumes:
-    jenkins_data:
+    jenkins-data:
       driver: local
-    nexus_data:
+    nexus-data:
       driver: local
