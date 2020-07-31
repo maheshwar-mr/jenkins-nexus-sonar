@@ -29,9 +29,10 @@ Use the following command to get the default Nexus password
 docker exec -it jenkins-nexus-sonar_nexus_1 cat /nexus-data/admin.password
 ```
 
-Use **admin** as the username and the **result of the above command** as the password to continue to the Setup Wizardd
+Use **admin** as the username and the **result of the above command** as the password to continue to the Setup Wizard
 
 ## Sonarqube Initial Credentials
 
 username: **admin**
+
 password: **bitnami**
