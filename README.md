@@ -19,7 +19,7 @@ Use the following command to get the default Jenkins password
 docker exec -it jenkins-nexus-sonar_jenkins_1 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
-Copy this password and paste it when asked for on http://YOUT_HOST_IP:8080 to continue to install plugins and create a user
+Copy this password and paste it when asked for on http://YOUR_HOST_IP:8080 to continue to install plugins and create a user
 
 ## Nexus Initial Credentials
 
